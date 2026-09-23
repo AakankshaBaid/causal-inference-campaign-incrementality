@@ -88,7 +88,6 @@ Total incrementality is the **sum of two causal estimates**, each with its own s
 | Not distinguishable | Clean — no spillover | Zero |
 | Significantly negative | Cannibalisation — sales moved rather than appeared | **Subtracts** |
 
-Treating the second model as a deduction by default assumes the answer before measuring it, and silently discards halo.
 
 ### Choosing the comparison group
 
@@ -151,7 +150,7 @@ Member-only discount stacking is worth a further **+2.3%** among properties that
 
 | Assumption check | Question | Result |
 | --- | --- | --- |
-| Cohort comparability | Are the groups alike enough to stand in for each other? | **PASS** — 0.99 pre-period co-movement |
+| Cohort comparability | Are the comparison groups alike enough to stand in for each other? | **PASS** — 0.99 pre-period co-movement |
 | Predictor integrity | Were the control series themselves moved by the campaign? | **PASS** — none shows a campaign effect beyond its placebo baseline |
 | Quiet-period placebo | Does a period with no campaign read as no campaign? | **PASS** |
 
@@ -177,15 +176,16 @@ The same design run across three campaigns:
 | Black Friday | seasonal peak | 3/3 | 6/7 | Usable with caveats |
 | Spring sale | shoulder | 2/3 | 5/7 | Not reportable |
 
-**Peak-trading campaigns move marketplace demand enough to contaminate the control series.** This is not a modelling failure to be fixed downstream — it is a property of measuring a campaign that shifts the thing you are measuring against. The mid-year window is where this method is on its firmest ground, and that is why it is the reference run.
+**Peak-trading campaigns move marketplace demand enough to contaminate the control series.** This is not a modelling failure to be fixed downstream — it is an attribute of measuring a campaign that shifts the thing you are measuring against. The mid-year window is where this method is on its firmest ground, and that is why it is the reference run.
 
 ---
 
-## Can This Campaign Be Made To Pay Back?
+## Can This Campaign Pay Back?
 
 Yes — but not by discounting differently. The framework can say precisely what would have to change, and the answer is a targeting decision, not a pricing one.
 
 The campaign generated **$32.2M** on participating properties and gave back **$19.3M** to their competitive set. Cannibalisation, not cost, is what sank it.
+**this campaign was roughly 25% away from paying back, and the cheapest route there is choosing different participants rather than changing the offer.**
 
 **Lever A — target properties with less competitive overlap**
 
@@ -210,8 +210,6 @@ The campaign generated **$32.2M** on participating properties and gave back **$1
 **Both together — half the cannibalisation, 18% eligibility: +5.5% total lift, $1.42M net, 2.01x return.**
 
 A caveat worth stating: Lever B holds the demand response fixed while narrowing who can access the deal. That is optimistic at the edges — tightening eligibility far enough will eventually cost lift. The table is a decision boundary, not a forecast, and the elasticity work in Next Steps is what would turn it into one.
-
-The practical reading: **this campaign was roughly 25% away from paying back, and the cheapest route there is choosing different participants rather than changing the offer.**
 
 ---
 
