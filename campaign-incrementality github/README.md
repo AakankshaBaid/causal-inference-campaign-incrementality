@@ -185,7 +185,7 @@ The same design run across three campaigns:
 Yes — but not by discounting differently. The framework can say precisely what would have to change, and the answer is a targeting decision, not a pricing one.
 
 The campaign generated **$32.2M** on participating properties and gave back **$19.3M** to their competitive set. Cannibalisation, not cost, is what sank it.
-**this campaign was roughly 25% away from paying back, and the cheapest route there is choosing different participants rather than changing the offer.**
+**This campaign was roughly 25% away from paying back, and the cheapest route there is choosing different participants rather than changing the offer.**
 
 **Lever A — target properties with less competitive overlap**
 
@@ -209,7 +209,7 @@ The campaign generated **$32.2M** on participating properties and gave back **$1
 
 **Both together — half the cannibalisation, 18% eligibility: +5.5% total lift, $1.42M net, 2.01x return.**
 
-A caveat worth stating: Lever B holds the demand response fixed while narrowing who can access the deal. That is optimistic at the edges — tightening eligibility far enough will eventually cost lift. The table is a decision boundary, not a forecast, and the elasticity work in Next Steps is what would turn it into one.
+Caveat: Lever B holds the demand response fixed while narrowing who can access the deal. That is optimistic at the edges — tightening eligibility far enough will eventually cost lift. The table is a decision boundary, and the elasticity work in Next Steps is what would turn it into a forecast.
 
 ---
 
@@ -220,7 +220,7 @@ A caveat worth stating: Lever B holds the demand response fixed while narrowing 
 - **Reversed the verdict on the campaign.** A +7.9% participant lift would have been booked as a win; total incrementality of +3.2% against a 3.9% break-even shows it destroyed value. **$19.3M of the apparent gain was sales moved between properties already on the platform.**
 - **Sized $13.5M of discount waste** — 91% of discount granted went to already-converting demand, reframing the cost lever from depth to eligibility.
 - **Removed 3 points of systematic understatement** by correcting for the prior year's campaign with a shaped profile rather than a block.
-- **Established where measurement can be trusted.** Off-peak campaigns pass every check; peak-season campaigns do not. Campaign readouts now carry a confidence status rather than an unqualified number.
+- **Established where measurement can be trusted.** Off-peak campaigns pass every check; peak-season campaigns do not. Campaign readouts carry a confidence status.
 - **Cut false "campaign worked" conclusions from 42% to 8%** by requiring results to be significant, material and above break-even.
 
 ---
@@ -248,13 +248,13 @@ A caveat worth stating: Lever B holds the demand response fixed while narrowing 
 
 Prove it on off-peak campaigns first, where the method is strongest, then extend to peak season once a holdout exists.
 
-**Dependencies:** booking, traffic and competitive-set data; agreement to reserve a holdout before launch; ~0.5 FTE analyst through Phases 2–4.
+**Dependencies:** booking, traffic and competitive-set data; agreement to reserve a holdout before launch.
 
 ---
 
 ## Next Steps
 
-- Pilot a cluster-randomised holdout — worth more than any modelling change
+- Pilot a cluster-randomised holdout
 - Close the remaining ~1.7 point conservatism, traced to the shape of the prior-year correction
 - Strengthen the quiet-period placebo, which currently detects only effects above ~3.5%
 - Measure repeat purchases beyond the campaign window; current results are conservative
@@ -276,7 +276,7 @@ Prove it on off-peak campaigns first, where the method is strongest, then extend
 
 ## Notes
 
-Fully synthetic. No proprietary data or business logic from any employer appears in this repo.
+Fully synthetic. No proprietary data appears in this repo.
 
 - **The estimator is conservative by roughly 1.7 points** and is reported as a lower bound. The cause is identified: the shaped prior-year correction cannot perfectly match last year's effect profile. Dropping the correction is far worse.
 - **The quiet-period gate is calibrated on stable data**, not chosen. The in-control distribution has a 1.7% standard deviation, so a 2% gate would reject four runs in ten on noise alone. It is set at 3.5%, which means it catches fabricated effects above that and is not evidence against a smaller leak.
@@ -300,7 +300,7 @@ Fully synthetic. No proprietary data or business logic from any employer appears
 
 ![Economics](outputs/figures/mid_year_sale_2025_exhibit_g_economics.png)
 
-Each run also writes a [decision memo](outputs/mid_year_sale_2025_decision_memo.md) generated from the results, so no figure is ever re-typed.
+Each run also writes a [decision memo](outputs/mid_year_sale_2025_decision_memo.md) generated from the results.
 
 ---
 
