@@ -150,6 +150,8 @@ Member-only discount stacking is worth a further **+2.3%** among properties that
 | Quiet-period placebo | Does a period with no campaign read as no campaign? | **PASS** |
 
 **Seven validation tests, all passing** *(Exhibit F)*:
+<img width="1450" height="390" alt="mid_year_sale_2025_exhibit_f_validation" src="https://github.com/user-attachments/assets/4f0e84a0-f76a-4251-b9fc-fe384a9d44db" />
+
 
 | Test | Question | Result |
 | --- | --- | ---: |
