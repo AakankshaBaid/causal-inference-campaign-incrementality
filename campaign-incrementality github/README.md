@@ -71,13 +71,6 @@ Current result: **+3.2% against a 3.9% break-even** — below the line, so the c
 
 ![Methodology](outputs/figures/exhibit_b_methodology.png)
 
-1. Frame — define the decision and the break-even lift the campaign has to clear
-2. Data — 18 months of weekly partner-level history
-3. Comparison group — the hard part: this campaign ran everywhere at once, so no untreated market exists. Four standard approaches were tested and rejected (competitors, prior year, distant markets, lagged aggregates — each contaminated in a different way) before landing on one that isn't: contemporaneous sales from non-lodging product lines — flights, cars, activities — which move with the same demand week to week and structurally can't be discounted by a hotel promotion
-4. Baseline — model what sales would have looked like without the campaign
-5. Adjust — separate this campaign's real effect from an echo of last year's recurring campaign still present in the data, and account for sales pulled from neighboring properties
-6. Validate — seven independent checks the result has to clear before it's reported (see Model Validation)
-7. Decide — translate the number into drivers, economics, and a recommendation
 ### Two models, not one
 
 Total incrementality is the **sum of two causal estimates**, each with its own sign:
