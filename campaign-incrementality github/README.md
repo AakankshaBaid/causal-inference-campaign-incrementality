@@ -4,7 +4,7 @@
 
 ![Executive overview](outputs/figures/exhibit_a_hero_banner.png)
 
-> Every figure is produced from a **simulated** dataset built for this project, with a known true answer. No confidential data, code or identifiers appear anywhere in this repo.
+> Built on **simulated** data for this project, with a known true answer. No confidential data, code or identifiers appear anywhere in this repo.
 
 ---
 
