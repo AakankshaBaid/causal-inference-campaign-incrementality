@@ -22,9 +22,7 @@ Two causal models answer it, and the total is their sum:
 
 **The campaign did not pay back.** It needed a 3.9% total lift to cover its discount and media cost and delivered 3.2% — a **0.80x return**. Measuring only the participating properties would have reported it as a clear win.
 
-Two findings carry more weight than the headline:
-
-- **91% of the discount went to customers who were already buying** — $13.5M of $14.8M granted. That is the largest cost lever in the programme and it is not discount depth, it is who qualifies.
+- **91% of the discount went to customers who were already buying** — $13.5M of $14.8M granted. The biggest cost lever isn't discount depth, it's who qualifies.
 - **The lift is conversion, not traffic.** Conversion contributed +8.5%, visits only +0.9%, and price gave back 2.7%. The campaign converted demand that had already arrived.
 
 **Recommendation: narrow eligibility rather than deepen discounts, and screen campaigns against their break-even lift before committing spend.**
@@ -44,13 +42,13 @@ Two findings carry more weight than the headline:
 
 ## North Star Metric
 
-**Total incremental gross booking value versus break-even lift.** One number, because only one number supports a spend decision:
+**Total incremental gross booking value versus break-even lift:** 
 
-- **Total** — participating properties *plus* the effect on their competitive set, carrying its own sign
-- **Incremental** — against a modelled baseline of what would have happened anyway
+- **Total** — participating properties *plus* the effect of their competitive set, netted together
+- **Incremental** — measured against a modelled baseline of what would have happened anyway
 - **Versus break-even** — a lift is only good news if it clears the cost required to produce it
 
-Current result: **+3.2% against a 3.9% break-even** — below the line, so the campaign destroyed a small amount of value.
+Current result: **+3.2% against a 3.9% break-even** — below the line, so the campaign eroded a little ROI.
 
 ---
 
@@ -73,6 +71,13 @@ Current result: **+3.2% against a 3.9% break-even** — below the line, so the c
 
 ![Methodology](outputs/figures/exhibit_b_methodology.png)
 
+1. Frame — define the decision and the break-even lift the campaign has to clear
+2. Data — 18 months of weekly partner-level history
+3. Comparison group — the hard part: this campaign ran everywhere at once, so no untreated market exists. Four standard approaches were tested and rejected (competitors, prior year, distant markets, lagged aggregates — each contaminated in a different way) before landing on one that isn't: contemporaneous sales from non-lodging product lines — flights, cars, activities — which move with the same demand week to week and structurally can't be discounted by a hotel promotion
+4. Baseline — model what sales would have looked like without the campaign
+5. Adjust — separate this campaign's real effect from an echo of last year's recurring campaign still present in the data, and account for sales pulled from neighboring properties
+6. Validate — seven independent checks the result has to clear before it's reported (see Model Validation)
+7. Decide — translate the number into drivers, economics, and a recommendation
 ### Two models, not one
 
 Total incrementality is the **sum of two causal estimates**, each with its own sign:
