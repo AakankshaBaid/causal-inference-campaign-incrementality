@@ -128,9 +128,11 @@ Room nights rose **+10.9%** against booking value's +7.9%, because price fell �
 
 Member-only discount stacking is worth a further **+2.3%** among properties that permit it.
 
-**Baseline vs actual** *(Exhibit C)* · **Lift build** *(Exhibit D)*
+**Baseline vs actual** *(Exhibit C)* · 
 
 ![Baseline](outputs/figures/mid_year_sale_2025_exhibit_c_baseline.png)
+
+**Lift build** *(Exhibit D)*
 ![Lift build](outputs/figures/mid_year_sale_2025_exhibit_d_lift_build.png)
 
 ---
